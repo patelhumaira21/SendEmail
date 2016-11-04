@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 
 public class SendGridEmailApi {
 	
-	private static final String SENDGRID_KEY = "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";
+	private static final String SENDGRID_KEY = "";
 	private static final String ENDPOINT = "mail/send";
 	private String to;
 	private String from;
