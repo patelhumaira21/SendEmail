@@ -1,0 +1,84 @@
+html,body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    background: #ffeecc ;
+}
+
+.Project_Heading {
+	text-align: center;
+	color : #802900;
+	letter-spacing: 2px;
+	font-size: 150%;
+}
+
+.center { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  	}
+
+h1, h2, h3 { 
+	text-align: center; 
+   }
+
+.data {
+	display: inline-table;
+	padding : 10px;
+	border:	1px solid black;
+   	}   
+
+table {
+    display: inline-table;
+    padding : 10px;
+
+}
+
+input {
+	font-size: 110%;
+	background-color: white;
+    color: black;
+	}
+
+td, th{
+	font-size: 110%;
+	color:#802900;
+	padding: 10px;
+}
+
+.button {
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 8px;
+	padding: 5px 10px;
+  	cursor: pointer;
+  	text-align: center;	
+  	outline: none;
+  	color: #802900;
+  	border: 1px solid #802900;
+  	margin-left: 10px;
+  	margin-right: 10px;
+	}
+
+.button:hover {
+	color :white;
+	background-color: #802900 ;
+}
+
+.button:active {
+	color :white;
+  	background-color: #802900 ;
+  	border :none;
+}
+
+#status {
+    text-align:center;
+	color: red;
+	font-weight: bold;
+	}
+
+#buttons {
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px;
+}

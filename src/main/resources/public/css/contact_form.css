@@ -1,0 +1,85 @@
+html,body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    background: #ffeecc ;
+}
+
+.Project_Heading {
+	text-align: center;
+	color : #802900;
+	letter-spacing: 2px;
+	font-size: 110%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  	}
+
+h1, h2, h3 {
+	text-align: center;
+   }
+
+.data {
+	display: inline-table;
+	padding : 10px;
+	border:	1px solid black;
+   	}
+
+table {
+    display: inline-table;
+    padding : 10px;
+
+}
+
+input{
+	font-size: 100%;
+	background-color: white;
+    color: black;
+	}
+
+th{
+	font-size: 120%;
+	color:#802900;
+	padding: 10px;
+}
+
+td{
+    text-align: left;
+}
+
+td#input_action{
+    text-align: center;
+}
+.button {
+    margin: 20px 20px 20px 20px;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 8px;
+	padding: 5px 10px;
+  	cursor: pointer;
+  	text-align: center;
+  	outline: none;
+  	color: #802900;
+  	border: 1px solid #802900;
+	}
+
+.button:hover {
+	color :#802900 ;
+	background-color: white ;
+}
+
+.button:active {
+	color: #802900 ;
+  	background-color: white ;
+  	border: none;
+}
+
+#confirmation_status {
+    text-align:center;
+	color: blue;
+	font-weight: bold;
+	}
