@@ -44,6 +44,8 @@ $(document).ready( function() {
                  	$("#status").text("Invalid username or password. Try again"); 
                  }	
              });  
+             e.preventDefault(); 
+
         }
     });
 });
